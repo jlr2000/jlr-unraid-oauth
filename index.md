@@ -6,16 +6,16 @@ permalink: /
 
 # JLR Unraid Integration
 
-JLR Unraid Integration is a personal, noncommercial application that connects a privately operated Unraid home server to the account owner's Google Drive using [rclone](https://rclone.org/).
+JLR Unraid Integration is a private, noncommercial application connecting the owner's Google Drive account to a self-hosted home server.
 
 ## Purpose
 
-The integration lets the owner retrieve files deposited in designated Google Drive folders, including torrent submission files for a private download workflow and, in future, ebook uploads for Calibre. Files may be organized or archived after processing.
+The integration automates personal file transfers, organizes uploaded files, and supports personal media-library management. The owner chooses which folders to process and may arrange for processed files to be archived or removed according to their own settings.
 
-The application is not offered as a public service. The owner authorizes their own Google account through Google's OAuth consent flow and can revoke access at [Google Account third-party connections](https://myaccount.google.com/connections).
+The application is not offered as a public service. Access requires the owner's authorization through Google's OAuth consent flow. The owner may revoke access at any time through [Google Account third-party connections](https://myaccount.google.com/connections).
 
-The integration may request Google Drive access broader than the particular folders that the owner's automation chooses to process. The folder limitation is enforced by the owner's configuration, not by Google's OAuth authorization.
+The requested Google Drive permission may extend beyond the folders selected for routine processing; those operational folder restrictions are set by the owner and are not restrictions enforced by Google's OAuth authorization.
 
-For details, read the [Privacy Policy](/jlr-unraid-oauth/privacy/).
+Read the [Privacy Policy](/jlr-unraid-oauth/privacy/) for information about data access, use, storage, and control.
 
-This public website contains documentation only; no credentials, tokens, or private server configuration are published here.
+This site provides public information about the integration only. It does not expose the home server or contain credentials, access tokens, or private configuration.
