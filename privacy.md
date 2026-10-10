@@ -6,30 +6,30 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective October 10, 2026**
+**Effective date: October 10, 2026**
 
-JLR Unraid Integration is a personal, noncommercial integration used by the owner of a private Unraid home server to access their own Google Drive account through rclone and Google's OAuth authorization.
+JLR Unraid Integration is a private, noncommercial application that connects the owner's Google Drive account to a self-hosted home server. It is operated for the owner's own personal file transfers, file organization, and media-library management.
 
 ## Information accessed
 
-With the account owner's authorization, the integration can access Google Drive files and folders according to the permissions displayed by Google during OAuth consent. The rclone connection may request broad Drive permissions. Limiting actual processing to designated upload folders is an operational practice, not an OAuth restriction.
+After the owner grants permission through Google's OAuth consent process, the integration may access Google Drive files and folders within the scope of the authorized permissions. The requested permission may allow broad access to Drive content; configuring the automation to operate within designated folders does not technically narrow Google's OAuth permission.
 
-The workflows process file names and contents required to retrieve uploads, pass torrent submissions to a torrent client, deliver ebooks to a personal library, and potentially archive successfully processed submissions.
+The integration may read file names, folder structures, file contents, and relevant file metadata to identify uploads and transfer them to the owner's server. Depending on the owner's configured workflows, it may create folders, upload files, reorganize or archive processed files, and delete items when explicitly configured to do so.
 
-## Use and disclosure
+## How information is used and shared
 
-Drive data is processed to carry out the owner's requested transfers and home-server automations. The operator does not sell Google user data, use it to serve advertising, or intentionally disclose it to unrelated third parties. Google handles OAuth authorization and Drive API requests under its own policies.
+Drive information is used only to perform the owner's configured file-transfer, organization, and personal media-library workflows. This integration is not offered to other users. The operator does not sell Google user data, use it for advertising, or intentionally disclose it to unrelated third parties. Google processes authorization and Drive API requests under its own terms and privacy policy.
 
-## Storage, protection and retention
+## Storage, security, and retention
 
-Files transferred to the owner's Unraid server and any locally produced processing logs remain under that owner's control. OAuth credentials and refresh tokens are stored on the private server in rclone's configuration and are not stored in this public GitHub repository. Local processing and retention rules are configured by the owner.
+Transferred files and operational logs remain under the owner's control on the private home server, subject to the owner's retention and backup settings. OAuth credentials and refresh tokens are stored locally in the owner's rclone configuration and are not published to this website or its public repository.
 
-The owner can delete imported files or logs, remove the rclone connection, and revoke Google authorization at [Google Account third-party connections](https://myaccount.google.com/connections).
+The owner can delete locally stored files and logs, remove the connection from the server, or revoke the integration's Google access through [Google Account third-party connections](https://myaccount.google.com/connections).
 
 ## Changes
 
-The policy may be revised if the integration's functions or data handling change. Updates will be published at this URL.
+The policy may be updated if the integration's capabilities or data handling change. The current policy will be published at this address.
 
 ## Contact
 
-For inquiries, use the [public GitHub repository](https://github.com/jlr2000/jlr-unraid-oauth) to contact the operator.
+Questions about this personal integration can be directed to the operator using the [public project repository](https://github.com/jlr2000/jlr-unraid-oauth).
