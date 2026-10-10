@@ -6,7 +6,7 @@ permalink: /
 
 # JLR Unraid Integration
 
-JLR Unraid Integration is a private, noncommercial application that connects an authorized user's Google Drive account for personal file management.
+JLR Unraid Integration is a private, noncommercial application that connects an authorized user's Google Drive account for personal file and library management.
 
 Access is granted by the account owner through Google authorization and can be revoked at any time.
 
